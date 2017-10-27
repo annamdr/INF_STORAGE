@@ -1,0 +1,26 @@
+﻿:root	{
+		background-color: silver;
+		}
+
+body {
+	width: 85%;
+	background-color: #2f2828;
+	color: white;
+	margin: 3% auto;
+	font-family: Arial;
+	font-size: large;
+	border-radius: 5px;
+	padding: 50px;
+}
+
+span {
+	  color: red;
+	 }
+footer {
+	color: goldenrod;
+	font-size: small;
+	}
+
+a:active, a:hover, a:link, a:visited { 
+	color: #c0a514;
+}
