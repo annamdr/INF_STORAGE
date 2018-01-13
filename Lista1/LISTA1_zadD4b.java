@@ -1,6 +1,4 @@
-/* Anna Mądrecka
-wiz-6665
-Studia podyplomowe
+/* 
 Lista nr 1 zadanie D4b
 30.10.2017
 */
