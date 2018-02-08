@@ -1,0 +1,52 @@
+﻿form{
+	width:90%
+}
+fieldset{
+	margin-bottom:15px;
+	padding:10px;
+}
+legend{
+	padding:1px 3px;
+	font-weight: bold;
+	font-variant: small-caps;
+	color: sandybrown;
+}
+label{
+	min-width:20%;
+	display: inline-block;
+	vertical-align:top;
+	margin: 6px;
+}
+em{
+	font-weight:bold;
+	font-style:normal;
+	color:#f00;
+}
+input:focus{
+	background:#ffd800;
+}
+input, textarea{
+	min-width:30%;
+}
+textarea{
+	width:60%;
+	height:20%;
+}
+select{
+	width: 10px;
+}
+input[type=checkbox]{
+	width:10px;
+}
+input[type=radio]{
+	width:10px;
+}
+input[type=file]{
+	width:60%;
+}
+button{
+	min-width:10%;
+	padding:3px;
+	margin-left:auto;
+	border-radius:5px;
+}

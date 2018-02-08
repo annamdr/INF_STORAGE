@@ -1,0 +1,63 @@
+﻿:root {
+    background-color: blueviolet;
+}
+body {
+    font-family: Tahoma, Verdana, Geneva, sans-serif;
+    background-color: pink;
+    color: #ffffff;
+    width: 85%;
+    margin: auto;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    border-radius: 10px;
+    padding: 50px;
+}
+
+header {
+    padding: 10px;
+    border-bottom: 2px solid #e5e5e5;
+    margin: 0;
+}
+
+header h1 {
+    font-size: xx-large;
+    font-weight: normal;
+    padding: 20px;
+    margin: 0;
+    color: #FF9900;
+}
+
+#listaksiazek {
+    margin: 20px 0;
+}
+
+#listaksiazek ul {
+    list-style: none;
+}
+
+#listaksiazek li a {
+    font-size: large;
+    color: #FF9900;
+    display: block;
+    padding: 5px;
+}
+
+#listaksiazek li a:hover {
+    border-left: 10px solid #94c9d4;
+    padding-left: 10px;
+    background-color: #e7f5f8;
+    text-decoration: none;
+    color: #0000FF;
+}
+
+footer {
+    font-size: small;
+    color: #cccccc;
+    text-align: center;
+    padding: 10px 5px 5px 5px;
+    border-top: 2px solid #e5e5e5;
+}
+
+#walidacja {
+    margin: auto;
+}

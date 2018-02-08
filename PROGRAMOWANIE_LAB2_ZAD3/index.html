@@ -1,0 +1,114 @@
+﻿<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <title>Bootstrap - przeglądarka slajdów</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <style>
+        body {
+            font-family: Tahoma, Verdana, Geneva, sans-serif;
+            background-color: #c9ce5d;
+            color: #f79aea;
+            margin: auto;
+            margin-bottom: 3%;
+            margin-top:3%;
+        }
+        h1{
+            color: saddlebrown;
+            width: 90%;
+            margin: auto;
+        }
+
+        .carousel-inner > .item > img,
+        .carousel-inner > .item > a > img {
+            width: 70%;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        Toskania, Włochy, luty 2017 <br />
+    </h1>
+    <div class="container">
+        <br>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Wskaźniki -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+                <li data-target="#myCarousel" data-slide-to="4"></li>
+				<li data-target="#myCarousel" data-slide-to="5"></li>
+            </ol>
+
+            <!-- Wrapper slajdów -->
+            <div class="carousel-inner" role="listbox">
+
+                <div class="item active">
+                    <img src="zdjecia/TOSKANIA1.jpg" alt="panorama1" width="450" height="330">
+                    <div class="carousel-caption">
+                        <h3>Toskania</h3>
+                        <p>Florencja, Toskania, widok z dachu Galerii Uffizi.</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="zdjecia/TOSKANIA2.jpg" alt="panorama2" width="450" height="330">
+                    <div class="carousel-caption">
+                        <h3>Toskania</h3>
+                        <p>Florencja, Toskania, widok z Mostu Złotników na rzekę Arno</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="zdjecia/TOSKANIA3.jpg" alt="panorama3" width="450" height="330">
+                    <div class="carousel-caption">
+                        <h3>Toskania</h3>
+                        <p>Siena, Toskania, widok na miasto</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="zdjecia/TOSKANIA4.jpg" alt="panorama4" width="450" height="330">
+                    <div class="carousel-caption">
+                        <h3>Toskania</h3>
+                        <p>Siena, Toskania, katedra</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="zdjecia/TOSKANIA5.jpg" alt="panorama5" width="450" height="330">
+                    <div class="carousel-caption">
+                        <h3>Toskania</h3>
+                        <p>Siena, Toskania, Piazza del Campo, La Torre del Mangia</p>
+                    </div>
+                </div>
+
+				<div class="item">
+					<img src="zdjecia/TOSKANIA6.jpg" alt="panorama6" width="450" height="330">
+					<div class="carousel-caption">
+						<h3>Toskania</h3>
+						<p>Florencja, Toskania, widok z Piazzale Michelangelo</p>
+					</div>
+				</div>
+
+            </div>
+
+            <!-- Przyciski: w lewo, w prawo -->
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Poprzednie</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Następne</span>
+            </a>
+        </div>
+    </div>
+</body>
+</html>

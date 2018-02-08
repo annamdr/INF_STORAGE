@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="utf-8" />
+    <meta name="author" content="AMdr" />
+    <title>HTML5-LAB6 </title>
+    <link rel="shortcut icon" href="http://inet01.website.net.ii.pwr.wroc.pl/navi1/ikony/favicon.ico" />
+    <link href="style/styl1.css" rel="stylesheet" type="text/css" />
+    <script src="skrypty/nasluch.js" defer></script>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+</head>
+<body>
+    <!--organizacja strony-->
+    <!--nagłówek-->
+    <header id="naglowek">
+        <p>
+            Studia podyplomowe: Technologie internetowe<br />
+            Kurs: Programowanie WWW<br />
+            Laboratorium nr 6<br />
+            HTML5 - audio, video 
+            <a href="str1.html"><b>strona 1</b></a> |
+            <a href="str2.html"><b>strona 2</b></a> |
+            <a href="str3.html"><b>strona 3</b></a> |
+            <a href="str4.html"><b>strona 4</b></a> |
+            <a href="str5.html"><b>strona 5</b></a> |
+            <a href="str6.html"><b>strona 6</b></a> |
+            <a href="str7.html"><b>strona 7</b></a> |
+            <a href="str8.html"><b>strona 8</b></a> |
+            <a href="str9.html"><b>strona 9</b></a> |
+        </p>
+        <p>
+            Autor: AMdr<br />
+            E-mail: wiz-6665@student.pwr.edu.pl
+        </p>
+    </header>
+    <!-- nawigacja -->
+    <nav id="nawigacja">
+        <div id="lewy">
+            <a href="#" id="kursor" onclick="event.preventDefault()" title="brak poprzedniej!">&lt;&lt;</a>
+        </div>
+        <div id="srodek">
+            <a href="index.html" title="strona główna">strona główna</a>
+        </div>
+        <div id="prawy">
+            <a href="str1.html" title="strona 1">&gt;&gt;</a>
+        </div>
+        <div class="clear"></div>
+    </nav>
+    <!-- zasadnicza zawartość-->
+    <section>
+        <header><h2>Strona główna</h2></header>
+        <article id="zawartosc">
+            <h3>Spis treści</h3>
+            <ul>
+                <li><a href="#">Strona główna</a></li>
+                <li><a href="str1.html">Str. 1. Formularz zgłoszeniowy </a></li>
+                <li><a href="str2.html">Str. 2. Kontrolki input - nowe typy </a></li>
+                <li><a href="str3.html">Str. 3. Demo np. datalist</a></li>
+                <li><a href="str4.html">Str. 4. Audio </a></li>
+                <li><a href="str5.html">Str. 5. Video </a></li>
+                <li><a href="str6.html">Str. 6. Picture </a></li>
+                <li><a href="str7.html">Str. 7. Iframe </a></li>
+                <li><a href="str8.html">Str. 8. Object </a></li>
+                <li><a href="str9.html">Str. 9. Img, map, area </a></li>
+            </ul>
+
+        </article>
+    </section>
+
+    <!--stopka-->
+    <footer id="stopka">
+        <aside class="st-box-left">
+            Data i czas: <span id="clock"></span>
+            <br />
+            Aktualizacja: <span id="modyf"></span>
+        </aside>
+        <aside class="st-box-right">
+            <!-- walidatory -->
+            <a href="http://jigsaw.w3.org/css-validator/check/referer?profile=css3">
+                <img src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Poprawny CSS3!" />
+            </a>
+            <a href="http://validator.w3.org/check?uri=referer">
+                <img src="ikony/html5.png" alt="Poprawny HTML5" />
+            </a>
+        </aside>
+        <div class="clear"></div>
+    </footer>
+</body>
+</html>

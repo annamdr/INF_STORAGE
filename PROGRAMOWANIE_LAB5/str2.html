@@ -1,0 +1,134 @@
+﻿<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="utf-8" />
+    <meta name="author" content="AMdr" />
+    <title>WYSTAWY</title>
+    <link rel="shortcut icon" href="http://inet01.website.net.ii.pwr.wroc.pl/navi1/ikony/favicon.ico" />
+    <link href="style/styl1.css" rel="stylesheet" type="text/css" />
+    <script src="skrypty/nasluch.js" defer></script>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <!-- zdefiniować styl elementów na str. 2-->
+    <style>
+   table{
+	   width: 80%;
+	   margin:auto;
+   }
+   thead th, tfoot th {
+	   text-align:left;
+	   background: #b75d5d;
+	   color: antiquewhite;
+   }
+   tbody th {
+	   text-align: left;
+	   background: #978686;
+	   color: #373232
+   }
+   caption {font-size: larger; font-family: Cambria}
+   #zawart{background-color:cornsilk; color:#4b3535;}
+    </style>
+</head>
+<body>
+    <!--organizacja strony-->
+    <!--nagłówek-->
+    <header id="naglowek">
+        <p>
+            Studia podyplomowe: Technologie internetowe<br />
+            Kurs: Programowanie WWW<br />
+            Laboratorium nr 5<br />
+            Tabele 
+            <a href="str1.html"><b>strona 1</b></a> |
+            <a href="str2.html"><b>strona 2</b></a> |
+            <a href="str3.html"><b>strona 3</b></a> |
+            <a href="str4.html"><b>strona 4</b></a> |
+        </p>
+        <p>
+            Autor: A Mdr<br />
+            E-mail: wiz-6665@student.pwr.edu.pl
+        </p>
+    </header>
+    <!-- nawigacja -->
+    <nav id="nawigacja">
+        <div id="lewy">
+            <a href="str1.html" title="strona 1">&lt;&lt;</a>
+        </div>
+        <div id="srodek">
+            <a href="index.html" title="strona główna">strona główna</a>
+        </div>
+        <div id="prawy">
+            <a href="str3.html" title="strona 3">&gt;&gt;</a>
+        </div>
+        <div class="clear"></div>
+    </nav>
+    <!-- zasadnicza zawartość-->
+	<header><h2>Str. 2. Tabela </h2></header>
+	<div id="zawart">
+	   <table>
+		   <caption>
+			   <strong>Wystawy w Polsce, które warto zobaczyć</strong>
+		   </caption>
+		   <thead>
+			   <tr>
+	  				<th>Miasto</th>
+					<th>Muzeum/galeria</th>
+					<th>Temat wystawy</th>
+					<th>Czas ekspozycji</th>
+			   </tr>
+		   </thead>
+		   <tfoot>
+			   <tr>
+					<th>W którym mieście?</th>
+					<th>Gdzie?</th>
+				   <th>Na jaki temat?</th>
+				   <th>Od kiedy do kiedy?</th>
+			   </tr>
+		   </tfoot>
+		   <tbody>
+			   <tr>
+				   <th>Kraków</th>
+				   <th>Muzeum Narodowe</th>
+				   <th>Twórczość Stanisława Wyspiańskiego</th>
+				   <th>1 XII 2017-19 I 2019</th>
+			   </tr>
+	 	<tr>
+	 		<th>Wrocław</th>
+	 		<th>Centrum Historii "Zajezdnia"</th>
+	 		<th>Świat Tytusa, Romka i Atomka Papcia Chmiela</th>
+	 		<th>6 I 2018-25 III 2018</th>
+	 	</tr>
+	 	<tr>
+	 		<th>Poznań</th>
+	 		<th>Centrum Kultury Zamek</th>
+	 		<th>Frida Kahlo i Diego Rivera. Polski kontekst</th>
+	 		<th>28 IX 2017-21 I 2018</th>
+	 	</tr>
+	 	<tr>
+	 		<th>Warszawa</th>
+	 		<th>Muzeum Narodowe</th>
+	 		<th>Biedermeier</th>
+	 		<th>25 X 2017- 6 I 2018</th>
+	 	</tr>
+		</tbody>
+	   </table>
+   </div>
+
+    <!--stopka-->
+    <footer id="stopka">
+        <aside class="st-box-left">
+            Data i czas: <span id="clock"></span>
+            <br />
+            Aktualizacja: <span id="modyf"></span>
+        </aside>
+        <aside class="st-box-right">
+            <!-- walidatory -->
+            <a href="http://jigsaw.w3.org/css-validator/check/referer?profile=css3">
+                <img src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Poprawny CSS3!" />
+            </a>
+            <a href="http://validator.w3.org/check?uri=referer">
+                <img src="ikony/html5.png" alt="Poprawny HTML5" />
+            </a>
+        </aside>
+        <div class="clear"></div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,21 @@
+﻿:root {
+    background-color: navajowhite;
+}
+
+body {
+    width: 85%;
+    background-color: lightpink;
+    color: cornflowerblue;
+    margin: 3% auto;
+    font-family: Cambria;
+    border-radius: 5px;
+    padding: 50px;
+}
+
+span {
+    color: darkseagreen;
+}
+
+footer {
+    color: blueviolet;
+}
